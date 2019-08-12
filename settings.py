@@ -8,7 +8,7 @@ from flask_babelex import Babel
 app = Flask(__name__)
 # 本地化，将网页内容改为中文显示
 babel = Babel(app)
-URI = 'mysql+pymysql://sunjl:121Qy@726Sun!@39.106.13.125:3306/automation?charset=utf8'
+URI = 'mysql+pymysql://name:passwoed@1XX.2XX.3XX.4XX:8080/automation?charset=utf8'
 app.config.update(
     SQLALCHEMY_DATABASE_URI=URI,
     BABEL_DEFAULT_LOCALE='zh_CN',
